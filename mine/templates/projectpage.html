@@ -1,35 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Project page</title>
+{% extends 'layout.html' %}
 
+{% load static %}
 
-    <style>
-  .bb{color: darksalmon}
+{% block body %}
+<h3> This is the project page</h3>
 
-
+<p>congratulations on successfully loading the project</p>
 
 
 
-
-    </style>
-    <link rel="stylesheet" href="../static/CSS/styling.css">
-
-</head>
-<body>
-<a href="home">HOME PAGE</a>
-<a href="about">ABOUT</a>
-<a href="contact"> CONTACT</a>
-<a href="services">SERVICES</a>
-
-
-
-
-
-<h3 class="bb"> <b>THIS IS THE PROJECT PAGE</b></h3>
-<H2> YOUR PROJECT WAS SUCCESSFULLY LOADED</H2>
-
-
-</body>
-</html>
+{% endblock%}

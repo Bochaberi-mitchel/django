@@ -9,7 +9,7 @@ def contact(request):
     return render(request, 'contact.html')
 def about(request):
     return render(request, 'about.html')
-def services(render):
+def services(request):
     return render(request, 'services.html')
 def projectpage(request):
     return render(request, 'projectpage.html')
